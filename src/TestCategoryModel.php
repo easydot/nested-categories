@@ -1,6 +1,6 @@
 <?php
 
-namespace DenisKisel\NestedCategory;
+namespace Easydot\NestedCategory;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Artisan;
@@ -21,7 +21,7 @@ class TestCategoryModel extends Model
         Schema::disableForeignKeyConstraints();
         Schema::dropIfExists('test_categories');
         Schema::enableForeignKeyConstraints();
-        Artisan::call(\DenisKisel\NestedCategory\Commands\NestedCategoryInstallCommand::class, [
+        Artisan::call(\Easydot\NestedCategory\Commands\NestedCategoryInstallCommand::class, [
             '--table-name' => 'test_categories'
         ]);
         self::rmMigrate();
@@ -36,7 +36,7 @@ class TestCategoryModel extends Model
     public static function seed($data)
     {
         foreach ($data as [0 => $id, 1 => $parentId, 2 => $name]) {
-            \DenisKisel\NestedCategory\TestCategoryModel::insert([
+            \Easydot\NestedCategory\TestCategoryModel::insert([
                 'id' => $id,
                 'parent_id' => $parentId,
                 'name' => $name

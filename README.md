@@ -1,5 +1,7 @@
 # nested-categories
 
+Forked from denis-kisel/nested-categories
+
 This library provide optimize common usage categories functional, such as: `category tree`, `breadcrumbs`, `child category items` by one sql query
 
 ### Support for
@@ -11,7 +13,7 @@ This library provide optimize common usage categories functional, such as: `cate
 
 Install via composer
 ```
-composer require denis-kisel/nested-categories
+composer require easydot/nested-categories
 ```
 
 
@@ -39,7 +41,7 @@ php artisan nested-category:upgrade App\\Models\\Category
 ### <a id="configure"></a>Configure
 Add trait `NestableCategory` to category model
 ```php
-use DenisKisel\NestedCategory\NestableCategory;
+use Easydot\NestedCategory\NestableCategory;
 
 class Category extends Model
 {
@@ -73,8 +75,8 @@ BUT ITS DONT AUTO REBUILD AFTER BATCH OPERATION(see [Rebuild Structure](#rebuild
 > Background use one query for rebuild all table
 
 ```php
-use DenisKisel\NestedCategory\NestableCategory;
-use DenisKisel\NestedCategory\AutoRebuildNested;
+use Easydot\NestedCategory\NestableCategory;
+use Easydot\NestedCategory\AutoRebuildNested;
 
 class Category extends Model
 {
@@ -263,6 +265,6 @@ php artisan nested-category:rebuild App\\Models\\Category
 
 ### Testing
 ```
-cd vendor/denis-kisel/nested-categories
+cd vendor/easydot/nested-categories
 vendor/bin/phpunit test
 ```

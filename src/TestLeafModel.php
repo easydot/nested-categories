@@ -1,6 +1,6 @@
 <?php
 
-namespace DenisKisel\NestedCategory;
+namespace Easydot\NestedCategory;
 
 use Illuminate\Support\Facades\Schema;
 

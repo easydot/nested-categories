@@ -1,6 +1,6 @@
 <?php
 
-namespace DenisKisel\NestedCategory;
+namespace Easydot\NestedCategory;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;

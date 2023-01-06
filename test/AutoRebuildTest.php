@@ -1,14 +1,14 @@
 <?php
 
-use \DenisKisel\NestedCategory\TestCategoryModelWithAutoRebuild;
+use \Easydot\NestedCategory\TestCategoryModelWithAutoRebuild;
 
 class AutoRebuildTest extends \PHPUnit\Framework\TestCase
 {
     protected function setUp(): void
     {
         parent::setUp();
-        \DenisKisel\NestedCategory\TestCategoryModel::reinstall();
-        \DenisKisel\NestedCategory\TestCategoryModel::where('id', '>', 0)->update(['path' => null]);
+        \Easydot\NestedCategory\TestCategoryModel::reinstall();
+        \Easydot\NestedCategory\TestCategoryModel::where('id', '>', 0)->update(['path' => null]);
     }
 
     public function test_auto_rebuild()

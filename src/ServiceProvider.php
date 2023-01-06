@@ -1,11 +1,11 @@
 <?php
 
-namespace DenisKisel\NestedCategory;
+namespace Easydot\NestedCategory;
 
 
-use DenisKisel\NestedCategory\Commands\NestedCategoryInstallCommand;
-use DenisKisel\NestedCategory\Commands\NestedCategoryRebuildCommand;
-use DenisKisel\NestedCategory\Commands\NestedCategoryUpgradeCommand;
+use Easydot\NestedCategory\Commands\NestedCategoryInstallCommand;
+use Easydot\NestedCategory\Commands\NestedCategoryRebuildCommand;
+use Easydot\NestedCategory\Commands\NestedCategoryUpgradeCommand;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

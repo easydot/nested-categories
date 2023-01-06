@@ -1,6 +1,6 @@
 <?php
 
-namespace DenisKisel\NestedCategory\Commands;
+namespace Easydot\NestedCategory\Commands;
 
 
 class NestedCategoryInstallCommand extends \Illuminate\Console\Command

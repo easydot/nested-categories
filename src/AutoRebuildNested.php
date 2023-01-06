@@ -1,6 +1,6 @@
 <?php
 
-namespace DenisKisel\NestedCategory;
+namespace Easydot\NestedCategory;
 
 trait AutoRebuildNested
 {

@@ -16,7 +16,7 @@ function rebuildNestedCategories(string $className)
         }
     }
 
-    (new \DenisKisel\BatchUpdate\BatchUpdate($tableName, $toUpdate))->run();
+    (new \Easydot\BatchUpdate\BatchUpdate($tableName, $toUpdate))->run();
 }
 
 function findPath(int $id, \Illuminate\Database\Eloquent\Model|\Illuminate\Support\Collection $categories, array &$ouput = []) :array

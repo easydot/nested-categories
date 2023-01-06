@@ -1,29 +1,29 @@
 {
-    "name": "denis-kisel/nested-categories",
+    "name": "easydot/nested-categories",
     "description": "Nested Categories",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "DenisKisel\\NestedCategory\\": "src/"
+            "Easydot\\NestedCategory\\": "src/"
         },
         "files": ["src/helper.php"]
     },
     "authors": [
         {
-            "name": "Denis",
-            "email": "denis.kisel92@gmail.com"
+            "name": "EASYDOT CREATIVE",
+            "email": "info@easydot.gr"
         }
     ],
     "extra": {
         "laravel": {
             "providers": [
-                "DenisKisel\\NestedCategory\\ServiceProvider"
+                "Easydot\\NestedCategory\\ServiceProvider"
             ]
         }
     },
     "require": {
-        "denis-kisel/batch-update": "1.0.0"
+        "easydot/batch-update": "1.0.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5"

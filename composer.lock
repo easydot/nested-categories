@@ -7,23 +7,23 @@
     "content-hash": "3faf8648dfae0c24b25de983360fe1da",
     "packages": [
         {
-            "name": "denis-kisel/batch-update",
+            "name": "easydot/batch-update",
             "version": "v1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/denis-kisel/batch-update.git",
+                "url": "https://github.com/easydot/batch-update.git",
                 "reference": "9465a8b5cb5a5c82c3d43a7f6db4cb25b55cd085"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/denis-kisel/batch-update/zipball/9465a8b5cb5a5c82c3d43a7f6db4cb25b55cd085",
+                "url": "https://api.github.com/repos/easydot/batch-update/zipball/9465a8b5cb5a5c82c3d43a7f6db4cb25b55cd085",
                 "reference": "9465a8b5cb5a5c82c3d43a7f6db4cb25b55cd085",
                 "shasum": ""
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "DenisKisel\\BatchUpdate\\": "src/"
+                    "Easydot\\BatchUpdate\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -37,8 +37,8 @@
             ],
             "description": "Batch Update",
             "support": {
-                "issues": "https://github.com/denis-kisel/batch-update/issues",
-                "source": "https://github.com/denis-kisel/batch-update/tree/v1.0.0"
+                "issues": "https://github.com/easydot/batch-update/issues",
+                "source": "https://github.com/easydot/batch-update/tree/v1.0.0"
             },
             "time": "2022-06-17T10:39:13+00:00"
         }
